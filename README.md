@@ -10,7 +10,7 @@
 #### or
 
 1. docker pull creatorx/nginx-naxsi
-2. docker run --name nginx_naxsi -d -p 80:80 -v {yourself conf dir}/conf/nginx.conf:/etc/nginx/nginx.conf -v {yourself conf dir}/conf/naxsi_core.rules:/etc/nginx/naxsi_core.rules -v {yourself conf dir}/conf/naxsi.rules:/etc/nginx/naxsi.rules nginx-naxsi
+2. docker run --name nginx_naxsi -d -p 80:80 -v {yourself conf dir}/conf/nginx.conf:/etc/nginx/nginx.conf -v {yourself conf dir}/conf/naxsi_core.rules:/etc/nginx/naxsi_core.rules -v {yourself conf dir}/conf/naxsi.rules:/etc/nginx/naxsi.rules creatorx/nginx-naxsi
 
 
 #### waf test
